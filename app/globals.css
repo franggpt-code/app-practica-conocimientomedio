@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at top left, rgba(95, 189, 255, 0.22), transparent 32rem),
+    radial-gradient(circle at bottom right, rgba(255, 177, 101, 0.18), transparent 28rem),
+    #f7fbff;
+  color: #243042;
+}
+
+button,
+select {
+  font: inherit;
+}
+
+.focus-ring:focus-visible {
+  outline: 4px solid #2563eb;
+  outline-offset: 3px;
+}
