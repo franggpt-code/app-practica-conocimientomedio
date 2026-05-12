@@ -647,5 +647,104 @@ export const questions: Question[] = [
     ],
     options: ["Apagar la luz", "Aprovechar la ventana", "Desenchufar cargador"],
     explanation: "Pequeñas decisiones diarias ayudan a ahorrar."
+  },
+  {
+    id: "materia-9",
+    block: "materia",
+    type: "multiple",
+    prompt: "¿Cuál de estas cosas ocupa espacio aunque sea ligera?",
+    options: ["una pluma", "una canción", "una idea"],
+    correctAnswer: "una pluma",
+    explanation: "Una pluma es materia porque ocupa un lugar, aunque pese poco."
+  },
+  {
+    id: "estados-9",
+    block: "estados",
+    type: "trueFalse",
+    prompt: "El aceite es líquido porque puede cambiar de forma según el recipiente.",
+    options: ["Verdadero", "Falso"],
+    correctAnswer: "Verdadero",
+    explanation: "Los líquidos toman la forma del vaso, botella o plato que los contiene."
+  },
+  {
+    id: "materiales-9",
+    block: "materiales",
+    type: "fillBlank",
+    prompt: "Completa: Una goma elástica es ____ porque vuelve a su forma.",
+    options: ["elástica", "transparente", "frágil"],
+    correctAnswer: "elástica",
+    explanation: "Un material elástico puede deformarse y recuperar su forma."
+  },
+  {
+    id: "calor-9",
+    block: "calor",
+    type: "multiple",
+    prompt: "Si metes una cuchara fría en sopa caliente, la cuchara...",
+    options: ["se calienta", "se convierte en gas", "se vuelve de papel"],
+    correctAnswer: "se calienta",
+    explanation: "El calor pasa de la sopa caliente a la cuchara más fría."
+  },
+  {
+    id: "cambios-9",
+    block: "cambios",
+    type: "fillBlank",
+    prompt: "Completa: Cuando se seca un charco al sol, el agua se ____.",
+    options: ["evapora", "solidifica", "rompe"],
+    correctAnswer: "evapora",
+    explanation: "El agua líquida pasa poco a poco a gas por el calor del Sol."
+  },
+  {
+    id: "dilatacion-9",
+    block: "dilatacion",
+    type: "trueFalse",
+    prompt: "La contracción ocurre cuando algunos materiales se hacen un poco más pequeños al enfriarse.",
+    options: ["Verdadero", "Falso"],
+    correctAnswer: "Verdadero",
+    explanation: "Al enfriarse, muchos materiales se contraen un poco."
+  },
+  {
+    id: "energia-9",
+    block: "energia",
+    type: "multiple",
+    prompt: "¿Qué forma de energía usa una radio enchufada para funcionar?",
+    options: ["eléctrica", "química", "muscular"],
+    correctAnswer: "eléctrica",
+    explanation: "La radio necesita electricidad para producir sonido."
+  },
+  {
+    id: "ahorro-9",
+    block: "ahorro",
+    type: "multiple",
+    prompt: "¿Qué conviene hacer con el grifo mientras te cepillas los dientes?",
+    options: ["cerrarlo", "dejarlo abierto", "abrirlo al máximo"],
+    correctAnswer: "cerrarlo",
+    explanation: "Cerrar el grifo ahorra agua y también energía para calentarla o moverla."
+  },
+  {
+    id: "cambios-10",
+    block: "cambios",
+    type: "match",
+    prompt: "Relaciona cada situación con el cambio que ocurre.",
+    pairs: [
+      { left: "Ropa mojada al sol", right: "Evaporación" },
+      { left: "Agua en cubitera", right: "Solidificación" },
+      { left: "Mantequilla en una sartén", right: "Fusión" }
+    ],
+    options: ["Evaporación", "Solidificación", "Fusión"],
+    explanation: "El calor y el frío pueden cambiar el estado de algunas sustancias."
+  },
+  {
+    id: "energia-10",
+    block: "energia",
+    type: "classify",
+    prompt: "Clasifica cada caso por la energía que destaca.",
+    items: ["pilas de un juguete", "campana sonando", "Sol iluminando una ventana"],
+    categories: ["Química", "Sonora", "Luminosa"],
+    correct: {
+      "pilas de un juguete": "Química",
+      "campana sonando": "Sonora",
+      "Sol iluminando una ventana": "Luminosa"
+    },
+    explanation: "Las pilas guardan energía química, la campana produce sonido y el Sol da luz."
   }
 ];
